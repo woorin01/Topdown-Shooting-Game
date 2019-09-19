@@ -13,7 +13,8 @@ public class Player : MonoBehaviour
         LookAtCursor();
         Movement(); 
         Shoot();
-        
+        //float x = Input.GetAxisRaw("Horizontal");
+        //transform.RotateAround(new Vector3(10, 10), Vector3.forward, x * 50 * Time.deltaTime);
     }
 
     private void LookAtCursor()
